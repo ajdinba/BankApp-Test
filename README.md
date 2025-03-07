@@ -1,3 +1,20 @@
+#Bank App Test
+This is a test for potential candidates for a backend position. The test is intended for positions with some basic understanding of how the backend works. The test involves connecting several routes to a frontend application. All connections to the APIs have already been made in the application, the candidate's task is to create APIs that would return appropriate results. The application consists of a dashboard where data is loaded and a right-hand tasks panel, where candidates can see whether the API is connected or not.
+
+The first task involves loading data such as, average deposit, average withdrawal, and current account balance. For all three things, an API will have to be created that will return only a number. So for the balance, the API must return the correct number (e.g. Api response: 1500), and the same for the remaining items.
+
+The second task is similar to the first but this time the data is loaded from the transactions table based on the user_id, the API should return a list of transactions that is limited to a total of 7 transactions.
+
+The third task is to load the profile from the bank user. The API needs to return the data from the user in the following format:
+{
+  id: 1, 
+  firstName: "John", 
+  lastName: "Doe", 
+  accountNumber: "123456789", 
+  email: "john.doe@email.com"
+}
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
