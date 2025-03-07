@@ -30,7 +30,7 @@ The third task is to load the profile from the bank user. The API needs to retur
 
 ![Screenshot 2025-03-07 at 16 35 49](https://github.com/user-attachments/assets/bae53a5f-cb46-481a-a3e8-331620dea17d)
 
-# We will provide db through email
+# We will provide db in the email
 
 # React + TypeScript + Vite
 
