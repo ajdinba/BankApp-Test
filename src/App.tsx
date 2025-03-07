@@ -1,12 +1,11 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Sidebar from './components/Sidebar'
 import Dashboard from './components/Dashboard'
 
 function App() {
-
   return (
-    <div className=''>
+    <div className='flex'>
       <Sidebar />
       <Dashboard />
     </div>
